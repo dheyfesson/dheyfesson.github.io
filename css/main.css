@@ -1,0 +1,460 @@
+
+-------------------------------------------------------------------*/
+/* ==========================================================
+! 1. Colors (EDIT THE COLORS BELOW)
+========================================================== */
+.color1 {
+  color: #09afad;
+}
+.color2 {
+  color: #031634;
+}
+.color3 {
+  color: #da222b;
+}
+.font1 {
+  font-family: 'Open Sans', sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+.bg-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* ==========================================================
+! 2. General
+========================================================== */
+
+body{
+    font-family:'Open Sans',sans-serif;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    position:relative!important;
+    padding:10px
+}
+
+body {
+  background-color: #031634;
+  background: url(../img/bg.png) repeat;
+}
+h1,
+h2 {
+  color: #09afad;
+}
+h1,h2{
+    color:#249991;
+    margin-top:0
+}
+
+h3{
+    color:#3b658a
+}
+.btn-default {
+  background: #031634;
+  border: #031634;
+}
+.btn-default:hover {
+  background: #000012 !important;
+}
+.btn-primary {
+  background: #09afad;
+  border: #09afad;
+}
+.btn-primary:hover {
+  background: #009e9c !important;
+}
+.btn-secondary {
+  background: #da222b;
+  border: #da222b;
+}
+.btn-secondary:hover {
+  background: #c9111a !important;
+}
+ul{
+    margin:0;
+    padding:0
+}
+
+hr{
+    border:0
+}
+
+/* ==========================================================
+! 3. Tipography
+========================================================== */
+
+p{
+    color:#555
+}
+.intro-title1 {
+  color: #222222;
+  border-bottom: 1px solid #09afad;
+}
+.intro-title2 {
+  color: #555555;
+}
+.section-title {
+  color: #000523;
+}
+
+/* ==========================================================
+! 4. Page Loader
+========================================================== */
+#page-loader {
+  background: #000523;
+  color: #09afad;
+}
+/* ==========================================================
+! 5. Header Colors
+========================================================== */
+.top-color {
+  background: #09afad;
+  height:8px;
+  width:20%;
+  float:left;
+}
+.top-color1 {
+  background: #09afad;
+}
+.top-color2 {
+  background: #031634;
+}
+.top-color3 {
+  background: #da222b;
+}
+.top-colors{
+    padding:0!important
+}
+
+/* ==========================================================
+! 6. Side Menu
+========================================================== */
+.side-menu-button {
+  background: #333;
+  opacity: 0.9;
+}
+.side-menu {
+  background: #111;
+}
+.side-menu-nav li a:hover {
+  color: #fff;
+}
+.side-menu-nav li.active a {
+  color: #fff;
+}
+#side-menu-close {
+  color: #fff;
+}
+/* ==========================================================
+! 7. Profile Intro
+========================================================== */
+
+.profile-intro{
+    margin-top:50px;
+    position:relative;
+    z-index:99
+}
+.profile-pic{
+    text-align:center;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    width:210px;
+    height:210px;
+    border:5px solid #249991;
+    overflow:hidden;
+    margin:0 auto;
+    background:#fafafa
+}
+.profile-pic img{
+    width:188px;
+    height:188px;
+    margin-top:6px;
+    border-radius:100%;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    overflow:hidden;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out
+}
+.profile-intro p{
+    font-size:16px;
+    text-align:center
+}
+.intro-title1{
+    font-size:36px;
+    color:#444;
+    letter-spacing:-1pt;
+    border-bottom:1px solid #249991;
+    padding-bottom:10px;
+    font-weight:200;
+    margin-top:15px;
+    text-align:center
+}
+.line-content{
+    color:#555;
+    font-size:16px
+}
+.intro-title2{
+    font-size:18px;
+    color:#777;
+    margin-top:10px;
+    margin-bottom:15px;
+    text-align:center
+}
+.section-title{
+    text-transform:uppercase;
+    color:#2a5479;
+    font-weight:700;
+    font-size:40px;
+    line-height:40px;
+    padding-bottom:20px
+}
+.section-item-title-1{
+    color:#3b658a;
+    border-bottom:1px solid #ccc;
+    padding-bottom:5px;
+    font-weight:700;
+    text-transform:uppercase;
+    font-size:20px;
+    margin-top:14px
+}
+/* ==========================================================
+! 8. Vertical Timeline
+========================================================== */
+.bg1,.timeline-bg{
+    background:#fafafa
+}
+.timeline-wrap {
+  background: #09afad;
+}
+.line-content {
+  color: #333333;
+}
+.col-height-1{height: 91px;}
+.col-height-2{height: 107px;}
+.col-height-3{height: 172px;}
+.col-height-4{height: 372px;}
+
+.timeline-progress{
+    background:url(../img/progress-bar.png) repeat-y center #249991;
+    background-size:400px 9px;
+}
+.timeline-point{
+    background:url(../img/progress-point2.png) center center #249991;
+    background-size:400px 500px
+}
+.timeline-education{
+    background:url(../img/progress-education4.png) no-repeat center center #249991;
+    background-size:400px 500px;
+}
+.timeline-work{
+    background:url(../img/progress-work3.png) no-repeat center center #249991;
+    background-size:400px 500px;
+}
+.timeline-mail{
+    background:url(../img/progress-mail3.png) no-repeat center center;
+    background-size:400px 500px;
+}
+.timeline-title{
+    background:url(../img/progress-section-title3.png) no-repeat center center #249991;
+    background-size:400px 500px;
+}
+.timeline-margin .content-wrap{
+    height:40px
+}
+/* ==========================================================
+! 9. Section: Education and Work Experience
+========================================================== */
+
+.line-content p{
+    font-size:14px;
+    opacity:1
+}
+
+.line-content-education{
+    padding-bottom:10px
+}
+.graduation-time, .job{
+    font-size:14px;
+    font-weight:700;
+    color:#999
+}
+.graduation-date,.job-date{
+    font-size:14px;
+    font-style:italic;
+    font-weight:200
+}
+.graduation-description,.job-description{
+    font-size:13px
+}
+.graduation-description p,.job-description p{
+    font-size:13px;
+    line-height:19px
+}
+
+
+/* ==========================================================
+! 10. Section: Skills
+========================================================== */
+.progress{
+    position:relative;
+    height:25px
+}
+.progress>.progress-type{
+    position:absolute;
+    left:0;
+    font-size:13px;
+    padding:3px 30px 2px 10px;
+    color:#fff;
+    background-color:rgba(25,25,25,.2)
+}
+.progress>.progress-completed{
+    position:absolute;
+    right:0;
+    font-weight:800;
+    padding:3px 10px 2px;
+    color:#888;
+    font-size:14px
+}
+.progress-bar {
+  background: #09afad;
+}
+.progress-bar-2 {
+  background: #031634;
+}
+.progress-bar-3 {
+  background: #da222b;
+}
+.progress-bar-4 {
+  background: #F24759;
+}
+.progress-bar-5 {
+  background: #4081A3;
+}
+.progress-bar-6 {
+  background: #F08965;
+}
+.progress-bar-7 {
+  background: #9B9998;
+}
+.progress-bar-8 {
+  background: #FD6F00;
+}
+.skills-list{
+    list-style:none
+}
+
+
+
+@media (min-width:240px) and (max-width:719px){
+    body{
+        background-image:none
+    }
+
+}
+@media (min-width:768px){
+    .profile-intro p{
+        text-align:left;
+        font-size:14px
+    }
+}
+@media (min-width:768px){
+    .intro-title1{
+        text-align:left;
+        font-size:40px
+    }
+}
+@media (min-width:992px){
+    .intro-title1{
+        margin-top:0;
+        font-size:54px
+    }
+}
+@media (min-width:768px){
+    .intro-title2{
+        font-size:20px;
+        text-align:left
+    }
+}
+@media (min-width:992px){
+    .section-title{
+        margin-left:-15px
+    }
+}
+@media (min-width:1200px){
+    .section-title{
+        margin-left:-35px
+    }
+}
+@media (min-width:992px){
+    #content-body{
+        margin-top:45px;
+        margin-bottom:90px
+    }
+}
+
+@media (min-width:1200px){
+    #content-body{
+        margin-bottom:200px
+    }
+}
+@media (min-width:992px){
+    .profile-intro{
+        height:210px
+    }
+}
+@media (min-width:992px){
+    .timeline-wrap{
+        top:-44px
+    }
+}
+@media (min-width:992px){
+    .timeline-bg{
+        background:url(../img/timeline-bg.png) repeat-x center center fixed;
+    }
+}
+@media (min-width:992px){
+    .timeline-margin .content-wrap{
+        height:80px
+    }
+}
+@media (min-width:992px){
+    .timeline-margin-big .content-wrap{
+        height:260px
+    }
+}
+@media (min-width:992px){
+    .line-content{
+        margin-left:-15px
+    }
+}
+@media (min-width:1200px){
+    .line-content{
+        margin-left:-35px
+    }
+}
+@media (min-width:992px){
+    .line-content-education{
+        min-height:150px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

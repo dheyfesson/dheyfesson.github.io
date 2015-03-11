@@ -1,0 +1,495 @@
+/* ==========================================================================
+   Normatização CSS
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #444;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Estilos Principais
+   ========================================================================== */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #f8f8f8;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 660px;
+    color: #444;
+}
+h1 {
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 2.4em;
+    /*margin-top: 2em;*/
+}
+h3 {
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+h1 a {
+    text-decoration: none;
+    color: #057ac5;
+}
+p {
+    font-size: 1.6em;
+    line-height: 2.1em;
+    margin:0px;
+}
+a {
+    color: #057ac5;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+figure img {
+    margin-bottom: 2em;
+}
+.header {
+    background: #000;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+}
+.header h1 {
+    color: #FFF;
+    font-size: 1.6em;
+    width: 240px;
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.menu ul {
+    float: right;
+    width: 420px;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 2em;
+}
+.menu a {
+    font-size: 1.4em;
+}
+.artigo {
+    margin-top: 4em;
+}
+.footer {
+    background: #000;
+    padding: 1.5em 0 1.5em 0;
+    margin-top: 4em;
+    width: 100%;
+}
+.footer small {
+    color: #CCC;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    width: 640px;
+    margin: 0 auto;
+    display: block;
+}
+
+.no-print {
+    display: block;
+}
+.print {
+    display: none;
+}
+/*--------------------*******************-------------------------------*/
+
+@media print {
+*{
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+#content-body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.col-md-2{overflow: hidden;margin-top: -15px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+ .col-md-12 {
+    width: 100%;
+  }
+  .col-md-11 {
+    width: 91.66666667%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+  .col-md-7 {
+    width: 58.33333333%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-5 {
+    width: 41.66666667%;
+  }
+  .col-md-4 {
+    width: 33.33333333%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-2 {
+    width: 16.66666667%;
+  }
+  .col-md-1 {
+    width: 8.33333333%;
+  }
+.top-colors {
+    padding: 0px !important;
+}
+.top-color {
+    height: 8px;
+    width: 20%;
+    float: left;
+    background: none repeat scroll 0% 0% #249991;
+}
+.top-color1 {
+    background: none repeat scroll 0% 0% #249991;
+}
+.top-color2 {
+    background: none repeat scroll 0% 0% #3B658A;
+}
+.top-color3 {
+    background: none repeat scroll 0% 0% #CE5F5F;
+}
+.profile-intro {
+    height: 210px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 99;
+}
+.profile-pic {
+    text-align: center;
+    border-radius: 100%;
+    width: 210px;
+    height: 210px;
+    border: 5px solid #249991;
+    overflow: hidden;
+    margin: 0px auto;
+    background: none repeat scroll 0% 0% #FAFAFA;
+}
+.profile-pic img {
+    width: 188px;
+    height: 188px;
+    margin-top: 6px;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+img {
+    vertical-align: middle;
+    border: 0px none;
+}
+.intro-title1 {
+    margin-top: 0px;
+    font-size: 54px;
+    text-align: left;
+    color: #444;
+    letter-spacing: -1pt;
+    border-bottom: 1px solid #249991;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+.bold {
+    font-weight: 700;
+}
+.color1 {
+    color: #249991;
+}
+.intro-title2 {
+    font-size: 20px;
+    text-align: left;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.profile-intro p {
+    text-align: left;
+    font-size: 14px;
+    text-align: justify;
+}
+.bg1, .timeline-bg {
+    background: none repeat scroll 0% 0% #FAFAFA;
+}
+.timeline-title {
+    margin-left: 63px;
+}
+.timeline-point {
+    margin-left: 45px;
+}
+.section-title {
+    text-transform: uppercase;
+    color: #2A5479;
+    font-weight: 700;
+    /*font-size: 40px;*/
+    line-height: 40px;
+    padding-bottom: 20px;
+    margin-left: -15px;
+}
+.section-item-title-1 {
+    color: #3B658A;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.line-content {
+    color: #555;
+    font-size: 16px;
+    margin-left: -15px;
+    opacity: 1;
+}
+.line-content p {
+    font-size: 14px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.skills-list {
+    list-style: none outside none;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    padding: 3px 30px 2px 10px;
+    color: #FFF;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+    color: #888;
+    font-size: 14px;
+}
+.progress-bar {
+    float: left;
+    width: 0px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFF;
+    text-align: center;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15) inset;
+    transition: width 0.6s ease 0s;
+}
+.progress-bar {
+    background: none repeat scroll 0% 0% #249991;
+}
+.progress-bar-2 {
+    background: none repeat scroll 0% 0% #3B658A;
+}
+.progress-bar-3 {
+    background: none repeat scroll 0% 0% #CE5F5F;
+}
+.ajust{margin-top: -28px;}
+
+#footer {
+    background: none repeat scroll 0% 0% #DA222B;
+    color: #FFF;
+}
+.page-break {
+page-break-before: always;
+}
+/* ==========================================================================
+   Estilos para impressão
+   ========================================================================== */
+
+
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        text-shadow: none !important;
+        filter:none !important;
+        -ms-filter: none !important;
+    }
+
+    body {
+        margin:0;
+        padding:0;
+        line-height: 1.4em;
+        font: 12pt Georgia, "Times New Roman", Times, serif;
+        color: #000;
+    }
+
+    @page {
+        margin: 1.5cm;
+    }
+
+    .wrap {
+        width: 100%;
+        margin: 0;
+        float: none !important;
+    }
+
+    .no-print, nav, footer, video, audio, object, embed {
+        display:none;
+    }
+
+    .print {
+        display: block;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    aside {
+        display:block;
+        page-break-before: always;
+    }
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 18pt;
+    }
+
+    h3 {
+        font-size: 14pt;
+    }
+
+    p {
+        font-size: 12pt;
+        widows: 3;
+        orphans: 3;
+    }
+
+    a, a:visited {
+        text-decoration: underline;
+    }
+
+    a:link:after, a:visited:after {
+        content: " (" attr(href) ") ";
+    }
+
+    p a {
+        word-wrap: break-word;
+    }
+
+    q:after {
+        content: " (" attr(cite) ")"
+    }
+
+    a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "";
+    }
+
+    .page-break {
+        page-break-before: always;
+    }
+
+    /*Estilos da Demo*/
+    .header.print h1{
+        width: 100%;
+        margin-bottom: 0.5cm;
+        font-size: 18pt;
+    }
+
+
+    .artigo {
+        margin-top: 0;
+        border-top: 1px solid #000;
+        padding-top: 1cm;
+    }
+
+    h1 a:link:after, h1 a:visited:after {
+        content: "";
+    }
+}
